@@ -9,7 +9,7 @@ async function main() {
     await sleep(5000);
   }
 }
-const favoriteFood = process.env.FAVORITE_FOOD;
+const favoriteFood = process.env.FAVOURITE_FOOD;
 console.log(`My favorite food is ${favoriteFood}`);
 
 main();
